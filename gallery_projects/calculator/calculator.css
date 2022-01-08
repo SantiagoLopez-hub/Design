@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	width: 100vw;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12pt;
+}
+#title{
+	text-align: center;
+	font-size: 4rem;
+}
+main{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+main form{
+	width: 100%;
+}
+input, select{
+	padding: 1%;
+	font-size: 2rem;
+	width: 100%;
+	margin: 2% 0%;
+}
+input[type="submit"]{
+	color: white;
+	border-radius: 5px;
+	background-color: #098FE3;
+	border: 2px black solid;
+}
+#result{
+	text-align: center;
+	font-size: 1.5rem;
+}
+#resultNumber{
+	display: block;
+	color: #00FF55;
+	font-size: 2rem;
+	margin: 5%;
+	border: 1px black solid;
+}
