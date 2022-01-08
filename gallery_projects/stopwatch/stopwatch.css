@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+	width: 100vw;
+	font-family: 'Nunito', sans-serif;
+}
+#title{
+	text-align: center;
+	font-size: 4em;
+}
+main{
+	width: 100%;
+}
+#watchContainer{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+}
+#watchContainer div{
+	font-size: 3rem;
+}
+#watch{
+	font-size: 6rem !important;
+	font-weight: bold;
+}
+button{
+	border: 1px black solid;
+	color: white;
+	padding: 2.5%;
+	margin: 2.5%;
+	font-size: 2rem;
+	border-radius: 15px;
+	cursor: pointer;
+}
+#startTimer{
+	background-color: #17D417;
+}
+#stopTimer{
+	background-color: #098FE3;
+}
+#resetTimer{
+	background-color: #F54747;
+}
