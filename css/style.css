@@ -1,0 +1,453 @@
+/* CSS for the whole body of the page */
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 12pt;
+}
+
+
+
+/* TradingView real-time graph */
+#tradingViewGraph{
+	height: 100vh;
+	pointer-events: none;
+	opacity: 0;
+	filter: grayscale(75%);
+}
+#tvGraphText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    text-shadow: 0px 0px 10px #969696;
+}
+#tvGraphTitle{
+	font-size: 4rem;
+	letter-spacing: 7vw;
+	margin-right: -7vw;
+	opacity: 0;
+}
+
+
+
+/* Particles js */
+#particles{
+	height: 100vh;
+	pointer-events: none;
+}
+
+
+
+/* SVG arrow pointing down */
+#scrollDownArrow{
+	position: absolute;
+	top: 85%;
+    
+    /* Centering svg: calculate half of the screen 
+    minus half of the total size of the svg */
+    left: calc(50% - 20px);
+
+	width: 40px;
+	height: 20px;
+	filter: drop-shadow(0px 3px 3px #000);
+	opacity: 0;
+}
+#scrollDownArrow path{
+	stroke: black;
+	fill: transparent;
+}
+
+
+
+/* Header Section */
+#headerTitle{
+	font-size: 4rem;
+	margin: 0;
+	margin: 10px 0px;
+	text-align: center;
+	width: 100%;
+}
+#headerTitleExtension{
+	letter-spacing: 7vw;
+}
+#header{
+	/*width: 100vw;*/
+	position: sticky;
+	top: 0;
+	background-color: white;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	z-index: 2;
+}
+#menu{
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
+.menuItems{
+	text-decoration: none;
+	font-size: 1.25rem;
+	border: 1px black solid;
+	width: 20%;
+	padding: 0.75vw 0vw;
+	color: black;
+	text-align: center;
+	transition: 0.5s background ease-out;
+}
+.menuItems:hover{
+	color: white;
+	background-color: black;
+}
+#currentLink{
+	color: white;
+	background-color: black;
+}
+#headerLine{
+	border-bottom: 1px black solid;
+	margin-bottom: 0;
+}
+
+
+
+/* Main content layout*/
+main{
+	width: 75%;
+	margin: auto;
+}
+#introduction{
+	text-align: center;
+}
+iframe{
+	border: none;
+}
+
+
+
+/* Home page */
+/* Odd sections */
+.oddSection{
+	height: 300px;
+	border: 1px black solid;
+}
+.oddSection article{
+	float: right;
+	width: 30%;
+	word-wrap: break-word;
+	hyphens: auto;
+}
+.oddSection article *{
+	margin-right: 10%;
+	margin-top: 10%;
+}
+.oddSection iframe, .oddSection img{
+	float: right;
+	width: 65%;
+	height: 100%;
+}
+/* Even sections */
+.evenSection{
+	height: 300px;
+	border: 1px black solid;
+}
+.evenSection article{
+	float: left;
+	width: 30%;
+	word-wrap: break-word;
+	hyphens: auto;
+}
+.evenSection article *{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.evenSection iframe, .evenSection img{
+	float: left;
+	width: 65%;
+	height: 100%;
+}
+/* Last section */
+#homeOutro p{
+	text-align: center;
+	margin: 0;
+}
+/* Space between sections */
+.sectionSpace{
+	width: 100%;
+	height: 20px;
+}
+
+
+
+/* Gallery Page */
+#galleryContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+.imgContainers{
+	overflow: hidden;
+	width: 50%;
+	position: relative;
+	flex-grow: 1; /*To make the last image have full width*/
+}
+/*Multiples of 3*/
+.imgContainers:nth-child(3n){
+	width: 100%;
+}
+#galleryContainer img{
+	width: 100%;
+	height: 100%;
+	transition: 0.5s ease;
+}
+.imagesTexts{
+	visibility: hidden;
+	color: white;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding: 3%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	background-color: black;
+	transition: 0.5s ease;
+}
+#galleryContainer img:hover{
+	transform: scale(1.15);
+	opacity: 0.75;
+}
+#galleryContainer img:hover + .imagesTexts{
+	visibility: visible;
+}
+
+
+
+/* Services page */
+table{
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+table tr td a{
+	color: black;
+}
+table th:not(:first-child){
+	border-bottom: 1px black solid;
+	font-size: 1.1rem;
+	padding-bottom: 2%;
+}
+table td:not(:first-child):not(:last-child){
+	border-right: 1px black solid;
+	padding: 3% 0%;
+}
+table tr:not(:first-child){
+	transition: 0.5s background ease;
+}
+table tr:not(:first-child):hover{
+	background-color: #E8E8E8;
+}
+
+
+
+/* About page */
+#timeline div{
+	display: flex;
+}
+#timeline div p{
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
+	width: 80%;
+	padding: 1% 2.5%;
+}
+#timeline div span{
+	width: calc(20% - 2.5% - 1px);
+	margin-left: 2.5%;
+}
+#timeline div span:before{
+	content: "";
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.amazonBooks{
+	border: 1px black solid;
+}
+.amazonBooks iframe{
+	width: 100%;
+	height: 550px;
+	margin: auto;
+}
+.amazonBooks p{
+	padding: 2.5%;
+}
+
+
+
+/* Contact page */
+main h1{
+	text-align: center;
+	font-weight: normal;
+}
+#emailSection form{
+	display: flex;
+	flex-direction: column;
+}
+.indentedQuestion{	
+	margin-left: 2% !important;
+}
+#emailSection form label{
+	flex: 1;
+	margin: 1.5% 0%;
+}
+#emailSection form input[type="Submit"]{
+	border: 1px black solid;
+	background-color: white;
+	cursor: pointer;
+	padding: 1%;
+	font-size: 1.15rem;
+	transition: 0.5s ease-out;
+}
+#emailSection form input[type="Submit"]:hover{
+	background-color: black;
+	color: white;
+}
+#emailSection form label textarea{
+	resize: none;
+	margin-left: 2%;
+	padding: 1%;
+	width: 74%;
+	height: 150px;
+}
+input[type="text"], input[type="number"]{
+	margin-left: 2%;
+	padding: 1%;
+}
+#mapsIframe{
+	width: 100%;
+	height: 500px;
+}
+.sectionSeparator{
+	border: 1px black solid;
+	margin: 75px;
+}
+#callUsSection p a{
+	color: black;
+}
+#callUsSection p:last-child{
+	background-color: red;
+	color: white;
+	padding: 2.5%;
+	text-align: center;
+}
+
+
+
+/* Footer section */
+footer{
+	margin-top: 20px;
+	height: 100%;
+	background-color: black;
+	min-height: 15rem;
+	padding-top: 1rem;
+	color: white;
+}
+#topFooter{
+	display: flex;
+}
+#topFooter div{
+	flex-direction: column;
+	width: 33.33%;
+	text-align: center;
+	line-height: 150%;
+}
+#topFooter div h4{
+	letter-spacing: 1px;
+	width: 30%;
+	margin: auto;
+	padding: 1%;
+	margin-bottom: 5%;
+
+	background-color: white;
+	color: black;
+}
+.textWrapperFooter{
+	width: 80%;
+	margin: auto;
+}
+.footerLinks{
+	color: white;
+	padding: 1%;
+}
+.footerLogoImages{
+	text-decoration: none;
+}
+.footerLogoImages img{
+	width: 35px;
+	margin: 10px;
+}
+#bottomFooter{
+	text-align: center;
+	color: #ABABAB;
+}
+
+
+
+/* Responsiveness */
+@media only screen and (max-width: 1000px){
+	#topFooter div h4{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 700px){
+	body{
+		font-size: 11pt;
+	}
+	#menu{
+		width: 100%;
+	}
+	#menu a{
+		font-size: 0.8rem;
+	}
+	#tvGraphTitle{
+		font-size: 2rem;
+	}
+	#header{
+		width: 100vw;
+	}
+	#headerTitle{
+		width: 100%;
+		font-size: 2rem;
+		overflow: hidden;
+	}
+	#topFooter div h4{
+		width: 95%;
+	}
+	#bottomFooter{
+		padding-bottom: 5%;
+	}
+}
+@media only screen and (max-width: 415px){
+	body{
+		font-size: 10pt;
+	}
+	table tr th{
+		font-size: 0.8rem !important;
+	}
+	table tr td{
+		font-size: 0.7rem;
+	}
+	.oddSection{
+		height: 100px;
+		overflow: scroll;
+	}
+	.evenSection{
+		height: 100px;
+		overflow: scroll;
+	}
+	.oddSection article{
+		margin-right: 5px;
+	}
+}
