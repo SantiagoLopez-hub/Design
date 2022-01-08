@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1391a0ad-3795-4824-a923-74386605b054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SantiDays/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Fifth1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Fifth2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Fifth3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Sponsor1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Sponsor2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_Sponsor3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_ThirdSection1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_ThirdSection2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/images/Royalty_free_picture1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SantiDays/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/calculator/calculator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/calculator/calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/calculator/calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/drawing_board/drawing_board.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/drawing_board/drawing_board.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/drawing_board/sketch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/stopwatch/stopwatch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/stopwatch/stopwatch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gallery_projects/stopwatch/stopwatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/facebook_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/abc_web_design.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/board.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/calculator.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/santidays.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/watch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home/buses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home/diagnosis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home/robot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instagram_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/twitter_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/youtube_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/particles_app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/tvGraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-    </list>
+    <list default="true" id="1391a0ad-3795-4824-a923-74386605b054" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641649906791</updated>
-      <workItem from="1641649909651" duration="1017000" />
+      <workItem from="1641649909651" duration="1764000" />
     </task>
     <servers />
   </component>
