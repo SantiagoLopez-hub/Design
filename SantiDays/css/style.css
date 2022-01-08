@@ -1,0 +1,270 @@
+body{
+	margin: 0;
+	background-color: rgb(235, 235, 235);
+	font-family: Arial, Helvetica;
+}
+
+header{
+	border-bottom: 1px solid #B8B8B8;
+	text-align: center;
+	background-color: white;
+}
+
+#logo{
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	display: inline-block;
+	text-align: center;
+	font-size: 3.5em;
+	font-weight: 600;
+	margin: 0;
+}
+
+#searchBox{
+	display: inline-block;
+	margin-top: 1%;
+	min-height: 2.5vw;
+	max-height: 2rem;
+	height: 1.6rem;
+	font-size: 1vw;
+}
+
+#submenu{
+	width: 100%;
+}
+
+.menuItem{
+	display: inline-block;
+	width: 12vw;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	transition: 0.5s background ease;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.menuItem:hover{
+	color: white;
+	background-color: rgb(60, 60, 60);
+}
+
+main{
+	margin: auto;
+	width: 900px;
+}
+
+#firstSection{
+	margin-top: 20px;
+	background-color: white;
+	height: 300px;
+	border-radius: 0px 20px 20px 20px;
+	overflow: hidden;
+}
+
+#firstSection p{
+	margin: 0;
+	display: inline-block;
+	width: 45%;
+	padding: 10px;
+	padding: 4% 2%;
+}
+
+#firstSectionTitle{
+	font-size: 2em;
+}
+
+#firstSection img{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: right;
+	overflow: auto;
+}
+
+#secondSection{
+	margin: auto;
+	display: flex;
+}
+
+.paragraphs{
+	background-color: white;
+	text-align: center;
+	width: 32%;
+	margin: 20px 1% 0% 1%;
+	border-radius: 0px 20px 20px 20px;
+	overflow: hidden;
+	height: 505px;
+}
+
+.paragraphs img{
+	width: 100%;
+	align-items: center;
+}
+
+.secondSectionTitles{
+	font-size: 2em;
+}
+
+.secondSectionText{
+	padding: 0% 5%;
+	font-size: 1.2em;
+}
+
+#thirdSection{
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#TFirstImage, #TSecondImage{
+	width: 48%;
+	display: inline-block;
+	overflow: hidden;
+
+	/*The following allows text to go over the images*/
+	position: relative;
+	text-align: center;
+}
+
+.topCenteredText{
+	position: absolute;
+	background-color: white;
+	padding: 2%;
+	top: 15%;
+	left: 50%;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	font-size: 1.5em;
+}
+
+#TFirstImage{
+	margin: 0% 1% 0% 0%;
+}
+
+#TSecondImage{
+	margin: 0% 0% 0% 1%;
+}
+
+#thirdSection img{
+	width: 100%;
+	border-radius: 0px 20px 20px 20px;
+	height: 300px;
+}
+
+#fourthSection{
+	margin: auto;
+	display: flex;
+}
+
+.fourthSponsors{
+	text-align: center;
+	width: 32%;
+	margin: 20px 1% 0% 1%;
+	overflow: hidden;
+}
+
+.fourthSponsors img{
+	border-radius: 0px 20px 20px 20px;
+	width: 100%;
+	height: 190px;
+	align-items: center;
+}
+
+#fifthSection{
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#fifthSection img{
+	width: 100%;
+	border-radius: 0px 20px 20px 20px;
+	height: 300px;
+}
+
+#FFirstImage, #FSecondImage, #FThirdImage{
+	width: 32%;
+	display: inline-block;
+	overflow: hidden;
+
+	/*The following allows text to go over the images*/
+	position: relative;
+	text-align: center;
+}
+
+#FFirstImage{
+	margin: 0% 1% 0% 0%;
+}
+
+#FThirdImage{
+	margin: 0% 0% 0% 1%;
+}
+
+.topLeftText{
+	position: absolute;
+	font-size: 1.5em;
+	top: 15px;
+	left: 15px;
+	margin: 0;
+}
+
+.centeredText{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	padding: 3%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+}
+
+footer{
+	margin-top: 20px;
+	border-top: 1px solid #B8B8B8;
+	height: 100%;
+	background-color: white;
+	height: 8rem;
+	padding-top: 1em;
+}
+
+
+.footerLinks{
+	text-decoration: none;
+	color: black;
+	font-size: 1.1em;
+	margin: 0% 2%;
+}
+
+.footerLinks:hover{
+	text-decoration: underline;
+}
+
+footer p{
+	padding: 0% 0% 0% 2%;
+	color: grey;
+}
+
+.footerLinksLeft{
+	padding: 0% 0% 0% 2%;
+	font-size: 0.85em;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	color: rgb(100, 100, 100);
+}
+
+.footerLinksLeft:hover{
+	text-decoration: underline;
+}
+
+/*The following adds responsiveness to the page*/
+@media screen and (max-width: 1100px) {
+	.menuItem{
+		width: 10vw;
+	}
+}
