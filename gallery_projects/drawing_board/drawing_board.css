@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+	background-color: black;
+	color: white;
+}
+#options{
+	text-align: center;
+}
+label{
+	margin-right: 5%;
+}
+label:last-of-type{
+	margin-right: 0%;
+}
