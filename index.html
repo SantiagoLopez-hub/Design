@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Data | Machine Learning</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="images/tab_logo.png">
+	</head>
+	<body>
+		<section>
+			<div id="tvGraphText">
+				<p id="tvGraphTitle">DATA</p>
+			</div>
+
+			<div id="tradingViewGraph"></div>
+
+			<svg id="scrollDownArrow">
+				<a href="#header">
+					<path class="a1" d="M0 0 L20 20 L40 0"></path>
+				</a>
+			</svg>
+		</section>
+
+		<!-- Header section -->
+		<section id="header">
+			<nav id="menu">
+				<a href="index.html" class="menuItems" id="currentLink">HOME</a>
+				<a href="gallery.html" class="menuItems">GALLERY</a>
+				<a href="services.html" class="menuItems">SERVICES</a>
+				<a href="about.html" class="menuItems">ABOUT</a>
+				<a href="contact.html" class="menuItems">CONTACT</a>
+			</nav>
+			<hr id="headerLine">
+		</section>
+
+		<!-- Main body of the page -->
+		<main>
+			<section class="evenSection">
+				<img src="images/home/robot.png" alt="robot">
+				<article>
+					<h1>NLP</h1>
+					<p>Interactions through Natural Language Processing</p>
+				</article>
+			</section>
+
+			<div class="sectionSpace"></div>
+
+			<section class="oddSection">
+				<img src="images/home/diagnosis.png" alt="diagnosis">
+				<article>
+					<h1>Medical Diagnosis</h1>
+					<p>We research strategies and algorithms that optimise the process of diagnosing</p>
+				</article>
+			</section>
+
+			<div class="sectionSpace"></div>
+
+			<section class="evenSection">
+				<img src="images/home/buses.png" alt="buses">
+				<article>
+					<h1>Clask 1.0</h1>
+					<p>Our most advanced and efficient prototype</p>
+				</article>
+			</section>
+
+			<div class="sectionSpace"></div>
+
+			<section class="oddSection">
+				<!-- Following iframe taken from youtube -->
+				<iframe src="https://www.youtube.com/embed/R02Feo2eIwY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<article>
+					<h1>Our Facilities</h1>
+					<p>Our sophisticated facilities are in London, with investments of over £10 million</p>
+				</article>
+			</section>
+
+			<div class="sectionSpace"></div>
+
+			<section class="evenSection">
+				<!-- Following iframe taken from soundcloud -->
+				<iframe allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/947796487&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+				<article>
+					<h1>Listen to our Podcast</h1>
+					<p>We talk about the future of life with intelligent machines by our side</p>
+				</article>
+			</section>
+
+			<div class="sectionSpace"></div>
+
+			<section id="homeOutro">
+				<p>This is just the beginning... Expect many more to come :)</p>
+			</section>
+
+			<div class="sectionSpace"></div>
+		</main>
+
+		
+		<!-- Footer section -->
+		<footer>
+			<section id="topFooter">
+				<!-- Description -->
+				<div>
+					<h4>Information</h4>
+					<p class="textWrapperFooter">This website is built with the purpose of promoting my future self, when I (hopefully) become a Data Scientist or Machine Learning Engineer</p>
+				</div>
+
+				<!-- Contact -->
+				<div>
+					<h4>Get in touch</h4>
+					<p class="textWrapperFooter"><a class="footerLinks" href="mailto:rodrigogonzalezrg544@gmail.com?subject=From%20Data%20Project">Email us</a> to talk about your projects</p>
+					<br>
+					<a class="footerLogoImages" href="https://www.facebook.com/" target="_blank">
+						<img src="images/facebook_logo.png" alt="facebook">
+					</a>
+					<a class="footerLogoImages" href="https://twitter.com/" target="_blank">
+						<img src="images/twitter_logo.png" alt="twitter">
+					</a>
+					<a class="footerLogoImages" href="https://instagram.com/" target="_blank">
+						<img src="images/instagram_logo.png" alt="instagram">
+					</a>
+					<a class="footerLogoImages" href="https://www.youtube.com/" target="_blank">
+						<img src="images/youtube_logo.png" alt="youtube">
+					</a>
+				</div>
+
+				<!-- Links -->
+				<div>
+					<h4>Useful Links</h4>
+					<a class="footerLinks" href="index.html">Home</a>
+					<br>
+					<a class="footerLinks" href="gallery.html">Gallery</a>
+					<br>
+					<a class="footerLinks" href="services.html">Services</a>
+					<br>
+					<a class="footerLinks" href="about.html">About</a>
+					<br>
+					<a class="footerLinks" href="contact.html">Contact</a>
+				</div>
+			</section>
+
+			<!-- Copyright stuff -->
+			<section id="bottomFooter">
+				<p>Copyright © DATA 2021</p>
+			</section>
+		</footer>
+
+
+		<!-- Tradingview Publicly available tools -->
+		<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+		<script type="text/javascript" src="js/tvGraph.js"></script>
+		
+		<!-- jQuery file -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		
+		<!-- JS Scripts -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
